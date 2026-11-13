@@ -145,7 +145,7 @@ PlanBot/
 ```
 
 This layout follows Flask's server-rendered frontend pattern: Jinja pages and static assets are served by the same app, while `/api/...` routes provide the frontend-to-backend connection. The SQLite database is created locally at `planbot.db` on first startup and is excluded from version control.
-
+## Website Live Link: https://planbot-event-planning-assistant-1.onrender.com
 ## GitHub notes
 
 The SQLite database, virtual environments, Python caches, and local environment files are excluded by `.gitignore`. The hero photograph is by [Mathis Payet Descombes on Unsplash](https://unsplash.com/photos/wedding-reception-tables-with-floral-centerpieces-wYWeVmlGWHM); it and the fonts load from public CDNs. The event planning, chat, and persistence logic run locally.
